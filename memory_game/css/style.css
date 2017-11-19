@@ -49,6 +49,23 @@ a:hover {
 	/* Your Styles here */
 	border-color: white;
 }
+
+button {
+	font-family: Raleway, sans-serif;
+	font-size: 34px;
+	margin: 20px auto;
+	color: #F15b31;
+	background-color: #00a6b3;
+	border-color: #f15b31;
+	border-radius: 10px;
+	border-width: 5px;
+}
+
+button:hover {
+	color: #00a6b3;
+	background-color: #f15b31;
+	border-color: #00a6b3;
+}
 header{
 	background-color: #F15b31;
 	color: #ffffff;
@@ -100,3 +117,4 @@ footer{
 	color: #f15b31;
 	font-weight: 700;
 }
+

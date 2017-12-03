@@ -28,7 +28,7 @@ var checkForMatch = function() {
 	if (cardsInPlay.length === 2) {
 		if (cardsInPlay[0] === cardsInPlay[1]) {
 		score += 1;
-		alert("You found a match!" + "Your Score is " + score);
+		alert("You found a match!" + " " + "Your Score is " + score);
 		if (score === 5){
 			alert("You win! You score is " + score)
 		}

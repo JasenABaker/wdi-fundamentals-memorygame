@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Memory Card Game</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-	<body>	
-	<header>	
-			<h1> Memory Game</h1>
+
+<body>
+	<header class="container justify-content-center">
+		<h1> Memory Game</h1>
 	</header>
-	<nav>
-		<a class="info" href="#Instructions">Instructions</a> <a class= "info" href="#game">Game</a>
+	<nav class="nav justify-content-center">
+		<a class="info nav-link" href="#Instructions">Instructions</a>
+		<a class="info nav-link" href="#game-board">Game</a>
 	</nav>
-	<main>
+	<main class="container">
 		<div id="Instructions">
-		<h2>Instructions</h2>
-			<p>Concentration, also known as Match Match, Memory, Plemanism, Shinkei-suijaku, Pexeso, or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
+			<h2>Instructions</h2>
+			<p>Concentration, also known as Match Match, Memory, Plemanism, Shinkei-suijaku, Pexeso, or simply Pairs, is a card game
+				in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object
+				of the game is to turn over pairs of matching cards.</p>
 		</div>
-		
-		<div id="game-board" class="board clearfix"></div>
-		<button>Reset</button>
-		
+
+		<div id="game-board" class="justify-content-center"></div>
+		<button type="button" class="btn btn-danger justify-content-center">Reset</button>
+
 
 		<h3>What's it good For?</h3>
-			<p>This game is an excellent way to test your memory. Studies show that constant brain training reduces the chances of developing debilitating disorders such as Alzheimer's disease or Dementia.</p>
+		<p>This game is an excellent way to test your memory. Studies show that constant brain training reduces the chances of developing
+			debilitating disorders such as Alzheimer's disease or Dementia.</p>
+			
+			<h3>Contact Me!</h3>
+			<div class="list-group">	
+			<a href="https://twitter.com/RiseNovemberist" class="list-group-item list-group-item-action list-group-item-primary">Hit me up on Twitter!</a>
+			<a href="mailto:RiseNovemberist@gmail.com" class="list-group-item list-group-item-action list-group-item-danger">Or shoot me an email!</a>
+		</div>
 
-		<h3>Contact Me!</h3>
-			<p> Hit me up on <a href="https://twitter.com/RiseNovemberist">Twitter</a>.</p>
-			<p>Or shoot me an <a href="mailto:RiseNovemberist@gmail.com">email</a>!</p>
+	</main>
 
-		</main>
+	<footer class="clearfix">
+		<p class="copyright">Copyright 2017</p>
+		<p class="message"> Created with &hearts; by
+			<span class="name">GA</span>
+		</p>
+	</footer>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
 
-		<footer class="clearfix">
-			<p class="copyright">Copyright 2017</p>
-			<p class="message"> Created with &hearts; by <span class="name">GA</span></p>
-		</footer>
-		<script src="js/main.js"></script>
-	</body>
 </html>
